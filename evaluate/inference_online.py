@@ -21,8 +21,8 @@ def append_to_pkl(file_path, new_data):
     with open(file_path, 'wb') as f:
         pickle.dump(new_data, f)
 
-def save_inference_results(all_infered_datas, save_path
-    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+def save_inference_results(all_infered_datas, save_path,
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)):
 
     with open(save_path, 'w') as f:
         json.dump(all_infered_datas, f, ensure_ascii=False,indent=4)
