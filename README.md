@@ -1,3 +1,5 @@
+本项目参考自以下的工作：
+
 <p align="center">
 
   <h2 align="center"><strong>VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning</strong></h2>
